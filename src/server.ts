@@ -190,9 +190,6 @@ const start = async () => {
     choices: Object.keys(actions)
   });
 
-
-
-  // Call the function mapped to the user's choice
   actions[action]();
 };
 
